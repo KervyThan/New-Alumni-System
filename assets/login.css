@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 20;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+  body {
+  margin: 0;
+  padding: 25px;
+  background-color: #1e1e5d;
+  background-image: url('');  
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  position: relative; 
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-section {
+  margin-right: 20px;
+  margin-left: -25px;
+  margin-top: auto;
+}
+
+.logo {
+  width: 65px;
+  height: auto;
+  border-radius: 60%;
+}
+
+::selection{
+  background: #1e1e5d;
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+  color: #1e1e5d;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+}
+.wrapper .title{
+  height: 90px;
+  background: #00152f;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form{
+  padding: 30px 25px 25px 25px;
+}
+.wrapper form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color:#1e1e5d;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+.wrapper form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #1f2833;
+  border: 1px solid #1e1e5d;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper form .pass{
+  margin: -8px 0 20px 0;
+}
+.wrapper form .pass a{
+  color: #1e1e5d;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #1e1e5d;
+  cursor: pointer;
+}
+form .button input:hover{
+  background: #1e1e5d;
+}
+.sign button{
+  width: 100%;
+  height: 100%;
+  background: #1e1e5d;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+}
